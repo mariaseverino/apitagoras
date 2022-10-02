@@ -4,6 +4,10 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
+@app.route("/")
+def home():
+  return "Api para calculo do Teorema de Pitagoras"
+
 @app.route("/calcula")
 def calcula():
   a = int(request.args.get('a'))
