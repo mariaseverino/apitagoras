@@ -16,10 +16,18 @@ Api desenvolvida com python utilizando o fremework Flask e Hospedada no Heroku.
 
 -   A api recebe por parametro os valores dos lados do triangulo
 
+-   O lado que deseja saver o valor deverá ter o valor 0 passado como parametro.
+
 -   A api calcula o valor do lado sem valor do trinagulo e retorna se ele é um triangulo retangulo, o resultado do calculo e o lado que ele representa.
 
 -   Caso tiver alguma tenha alguma errada com a entrada, a api retorna que não e um trinagulo retangulo e qual foi o erro encontrado.
 
+
+### ⚡️ Exemplos de chamada da api
+
+-   Caso queira saber o valor de c e o valor de a é 5 e o de b é 3. Então chamasse a api com c valendo 0.
+
+```https://maria-apitagoras.herokuapp.com/calcula?a=5&b=3&c=0```
 
 ## 🚀 Exemplos de retorno
 
