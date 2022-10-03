@@ -12,6 +12,7 @@
 Api desenvolvida com python utilizando o fremework Flask e Hospedada no Heroku.
 
 ## 🤔 Como Usar
+**Api com os parametros:** ```https://maria-apitagoras.herokuapp.com/calcula?a={ladoA}&b={ladoB}&c={ladoC}```
 
 -   A api recebe por parametro os valores dos lados do triangulo
 
@@ -19,10 +20,6 @@ Api desenvolvida com python utilizando o fremework Flask e Hospedada no Heroku.
 
 -   Caso tiver alguma tenha alguma errada com a entrada, a api retorna que não e um trinagulo retangulo e qual foi o erro encontrado.
 
-```bash
-# Api com os parametros
-https://maria-apitagoras.herokuapp.com/calcula?a={ladoA}&b={ladoB}&c={ladoC}
-```
 
 ## 🚀 Exemplos de retorno
 
